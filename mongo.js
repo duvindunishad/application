@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect("mongodb+srv://digitalcodehubs:digitalcodehubs@cluster0.gsi8wfe.mongodb.net/")
+mongoose.connect("ENTER YOUR MONGODB CONNECTION STRING")
 .then(()=>{
     console.log("mongodb connected successfully");
 })
